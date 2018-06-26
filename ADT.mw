@@ -121,7 +121,7 @@
 </Input>
 </Group></Presentation-Block><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L310" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal" alignment="centred"><EC-ComboBox id="ADTs" enabled="true" visible="true" selected_indices="0" fontcolor="[0,0,0]" selecteditem="Stack" selecteditemlist="Stack">Stack<MapleCode action="selection-event-handler">adt := GP(&quot;ADTs&quot;, 'value');
+<Input><Text-field style="Text" layout="Normal" alignment="centred"><EC-ComboBox id="ADTs" enabled="true" visible="true" selected_indices="0" fontcolor="[0,0,0]" selecteditem="Stack" selecteditemlist="Stack">Stack,Queue<MapleCode action="selection-event-handler">adt := GP(&quot;ADTs&quot;, 'value');
 
 if (adt = &quot;Stack&quot;) then
 	SP(&quot;Operation&quot;, &quot;itemList&quot;, [&quot;Default&quot;,&quot;Push&quot;,&quot;Pop&quot;,&quot;Top&quot;]);
