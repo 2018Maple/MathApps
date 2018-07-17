@@ -1,0 +1,1 @@
+A collection of Math Apps developed by interns at Maplesoft in 2018
